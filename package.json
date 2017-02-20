@@ -3,6 +3,7 @@
   "main": "./lib/language-testxy",
   "version": "0.8.0",
   "author": "Ramindu De Silva <rami.desilva@gmail.com>",
+  "owner": "Ramindu De Silva",
   "description": "testxy language support in Atom",
   "engines": {
     "atom": "*"
