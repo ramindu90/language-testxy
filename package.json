@@ -2,6 +2,7 @@
   "name": "language-testxy",
   "main": "./lib/language-testxy",
   "version": "0.8.0",
+  "author": "Ramindu De Silva <rami.desilva@gmail.com>",
   "description": "testxy language support in Atom",
   "engines": {
     "atom": "*"
@@ -24,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramindu90/language-testx/.git"
+    "url": "https://github.com/ramindu90/language-testxy/.git"
   },
   "bugs": {
-    "url": "https://github.com/ramindu90/language-testx/issues"
+    "url": "https://github.com/ramindu90/language-testxy/issues"
   },
   "license": "Apache 2.0"
 }
