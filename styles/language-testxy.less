@@ -1,0 +1,32 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.language-testxy {
+}
+
+atom-text-editor::shadow .gutter .line-number  {
+  &.red-square {
+    position: relative;
+    height: 18px;
+    width: 24px;
+    background-color: #DB1D1D;
+  }
+}
+
+.red-square:hover {
+  background-color: #FFFFFF;
+}
+
+div.tooltip.error .tooltip-inner {
+  background-color: #f44242;
+}
+div.tooltip.error.top .tooltip-arrow {
+    border-top-color: #f44242;
+}
+
+div.tooltip.error.bottom .tooltip-arrow {
+    border-bottom-color: #f44242;
+}

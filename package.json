@@ -1,0 +1,33 @@
+{
+  "name": "language-testxy",
+  "main": "./lib/language-testxy",
+  "version": "0.8.0",
+  "description": "testxy language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "activationCommands": {
+    "atom-workspace": "language-testxy:parse"
+  },
+  "activationHooks": [
+    "language-testxy:grammar-used"
+  ],
+  "dependencies": {
+    "lodash": "3.10.1"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramindu90/language-testx/.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramindu90/language-testx/issues"
+  },
+  "license": "Apache 2.0"
+}

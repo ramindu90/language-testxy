@@ -1,0 +1,11 @@
+'scopeName': 'source.testxy'
+'name': 'TestXY'
+'fileTypes': [
+    'testxy'
+]
+'patterns': [
+    {
+        'match': '\\bsource\\.testxy\\b'
+        'name': 'constant.numeric.mylanguage'
+    }
+]

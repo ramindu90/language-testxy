@@ -1,0 +1,31 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "testxy",
+        "submenu": [
+          {
+            "label": "Parse",
+            "command": "language-testxy:parse"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "testxy",
+          "submenu": [
+            {
+              "label": "Parse",
+              "command": "language-testxy:parse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
